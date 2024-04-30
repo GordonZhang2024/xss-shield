@@ -1,5 +1,5 @@
 # xss-shield
-**xss-shield** is a python library which is used to stop your website from being attacked.
+A Python library to prevent your website from being attacked
 
 ## Installing
 Type command:
