@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "xss-shield"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Gordon Zhang", email="jp20171211@163.com" },
 ]
