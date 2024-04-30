@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "xss-shield"
+version = "0.0.1"
+authors = [
+  { name="Gordon Zhang", email="jp20171211@163.com" },
+]
+description = "A library used to stop your website from being attacked."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/GordonZhang2024/xss-shield/"
+Issues = "https://github.com/GordonZhang2024/xss-shield/issues"
