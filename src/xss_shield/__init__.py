@@ -5,6 +5,7 @@ def escape(s: str) -> str:
          .replace(' ', '-')\
          .replace("'", "&#39;")\
          .replace('"', "&#34;")\
-         .replace(';', '&#59')
+         .replace(';', '&#59')\
+         .replace('/', '&#47')\
     
     return s
