@@ -1,11 +1,10 @@
 def escape(s: str) -> str:
-    s = s.replace('<', '&lt;')\
+    s = s.replace(';', '&#59;')\
+         .replace('<', '&lt;')\
          .replace('>', '&gt;')\
-         .replace('&', '&amp;')\
          .replace(' ', '-')\
          .replace("'", "&#39;")\
          .replace('"', "&#34;")\
-         .replace(';', '&#59;')\
          .replace('/', '&#47;')\
     
     return s
