@@ -11,6 +11,7 @@ $ pip install xss-shield
 example:
 ```python
 import xss_shield
+
 unsafe_str = '<script>alert("Bad.");</script>'
 safe_str = xss_shield.escape(unsafe_str)
 ```
