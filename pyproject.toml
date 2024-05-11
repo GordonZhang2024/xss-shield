@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "xss-shield"
-version = "0.1.1"
+version = "0.1.2"
 authors = [
   { name="Gordon Zhang", email="jp20171211@163.com" },
 ]
@@ -13,7 +13,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)",
+    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
 
