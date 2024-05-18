@@ -15,6 +15,13 @@ $ pip install xss-shield
 ```
 
 ## Usage
+Function `excape(s: str, strict=True)`
+> ## Arguments
+> s: the string to parse
+>
+> strict: if strict = False -> only replace `<script>` tag
+
+
 example:
 ```python
 import xss_shield
@@ -22,3 +29,5 @@ import xss_shield
 unsafe_str = '<script>alert("Bad.");</script>'
 safe_str = xss_shield.escape(unsafe_str)
 ```
+
+
