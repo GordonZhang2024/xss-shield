@@ -4,7 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "xss-shield"
-version = "1.0.0"
+keywords = ["xss", "web", "flask", "django", "shield", "attack"]
+version = "1.1.0"
 authors = [
   { name="Gordon Zhang", email="jp20171211@163.com" },
 ]
@@ -15,6 +16,10 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+    "Natural Language :: English",
+    "Topic :: Internet",
+    "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 
 [project.urls]
