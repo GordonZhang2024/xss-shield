@@ -9,7 +9,7 @@
 project = 'Xss shield'
 copyright = '2024, Gordon Zhang'
 author = 'Gordon Zhang'
-release = '1.1.3'
+release = '1.2.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
