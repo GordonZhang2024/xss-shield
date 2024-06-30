@@ -46,7 +46,7 @@ def escape(s: str, strict=True) -> str:
 
     More info
     =========
-    Please read `README.md`
+    Please read our docs at http://xss-shield.readthedocs.io/
     """
     if strict:
         s = (
