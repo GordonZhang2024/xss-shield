@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "xss-shield"
 keywords = ["xss", "web", "flask", "django", "shield", "attack"]
-version = "1.2.0"
+version = "1.2.1"
 authors = [
   { name="Gordon Zhang", email="jp20171211@163.com" },
 ]
@@ -25,3 +25,5 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/GordonZhang2024/xss-shield/"
 Issues = "https://github.com/GordonZhang2024/xss-shield/issues"
+Docs = "https://xss-shield.readthedocs.io/en/latest/"
+
