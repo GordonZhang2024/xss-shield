@@ -1,4 +1,5 @@
-# xss-shield
+# ![xss-shield](https://github.com/GordonZhang2024/xss-shield/assets/159539185/bb32aad4-4e35-4fad-9a54-22fec0115b81)
+
 A Python library to prevent your website from being attacked.
 
 [PyPI](https://pypi.org/project/xss-shield/)
