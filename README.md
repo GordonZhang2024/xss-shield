@@ -22,9 +22,11 @@ $ pip install xss-shield
 ## Usage
 Function `excape(s: str, strict=True)`
 > ## Arguments
-> s: the string to parse
+> - s: the string to parse
 >
-> strict: if strict = False -> only replace `<script>` tag
+> - strict:
+>> if strict = False ->
+>>  only replace `<script>` tag
 
 
 example:
@@ -34,6 +36,7 @@ import xss_shield
 unsafe_str = '<script>alert("Bad.");</script>'
 safe_str = xss_shield.escape(unsafe_str)
 ```
+*The full example is in the `examples/` directory.*
 
 ## Docs
 **The docs are availible [here](https://xss-shield.readthedocs.io/en/latest/)**
