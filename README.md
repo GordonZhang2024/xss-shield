@@ -1,7 +1,7 @@
 # ![xss-shield](https://github.com/user-attachments/assets/3349e333-d5bb-4125-afe0-bc06c8fe087b)
 
 
-A Python library to prevent your website from being attacked.
+A simple Python library to prevent your website from being attacked.
 
 [PyPI](https://pypi.org/project/xss-shield/)
 [GitHub](https://github.com/GordonZhang2024/xss-shield/tree/main)
@@ -25,8 +25,8 @@ Function `excape(s: str, strict=True)`
 > - s: the string to parse
 >
 > - strict:
->> if strict = False ->
->>  only replace `<script>` tag
+>> if not strict ->
+>>  keep everything except `<script>` tag
 
 
 example:
